@@ -1,0 +1,131 @@
+
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+:root {
+    --main-wheat-color: wheat;
+    --main-dark-color: rgb(58, 24, 5);
+    --second-dark-color: rgb(110, 52, 18);
+    --white-color: white;
+    --gold-color: rgb(156, 136, 21);
+    --blue-color: blue;
+    --black-color: black;
+    --black-transparency: rgba(0, 0, 0, 0.301);
+    --green-transparency: rgba(9, 99, 105, 0.24);
+  }
+
+.header{
+    background-color: var(--green-transparency);
+    color: var(--white-color);
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mainContent{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video{
+    width:  100%;
+}
+
+.controls{
+    position: absolute;
+    top: 70%;
+    left: calc(50% - 100px);
+    color: var(--white-color);
+    background-color: var(--black-transparency);
+    padding: 5px;
+    border-radius: 20px; 
+    font-size: 1.5rem;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    cursor: pointer;
+}
+
+.controls p{
+    text-align: center;
+    border: 3px solid var(--white-color);
+    border-radius: inherit;
+    padding: inherit;
+    width: 80px;
+    
+}
+
+.controls p:hover{
+    background-color: black;
+    color: orange;
+}
+
+.controls .play{
+    background-color: rgb(113, 219, 157);
+   
+}
+
+.controls .pause{
+    background-color: skyblue;
+}
+
+.controls .btnTapa{
+    background-color: black;
+    position: absolute;
+    width: 80px;
+    height: 80%;
+}
+
+.tapando{
+    right: 5px;
+}
+
+
+
+
+
+
+/* Media Querys ******************/
+
+
+@media only screen and (min-width: 600px){
+
+
+}
+
+
+
+@media only screen and (min-width: 1024px)  {
+
+
+}
